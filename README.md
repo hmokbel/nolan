@@ -1,12 +1,12 @@
-# Warren
+# Nolan
 
-Warren is an AI-powered personal finance app that helps users securely connect bank and investment accounts, analyze spending, and receive personalized financial insights.
+Nolan is an AI-powered personal finance app that helps users securely connect bank and investment accounts, analyze spending, and receive personalized financial insights.
 
-**Website:** [hmokbel.github.io/warren](https://hmokbel.github.io/warren/)
+**Website:** [hmokbel.github.io/nolan](https://hmokbel.github.io/nolan/)
 
 ## Overview
 
-Warren uses the Plaid API to facilitate secure bank account connections. Users authenticate directly with their financial institution through Plaid Link — Warren never handles or stores bank login credentials.
+Nolan uses the Plaid API to facilitate secure bank account connections. Users authenticate directly with their financial institution through Plaid Link — Nolan never handles or stores bank login credentials.
 
 ## Contents
 
