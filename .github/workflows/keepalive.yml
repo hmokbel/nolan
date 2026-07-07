@@ -1,0 +1,21 @@
+# Keeps the Nolan backend warm. Render's free tier spins the instance down
+# after 15 idle minutes; the next request then eats a 10-30s cold start.
+#
+# This lives in the PUBLIC repo on purpose: public repos get unlimited free
+# Actions minutes, and GitHub's cron scheduler delays are survivable at a
+# 5-minute cadence (even a doubled gap stays near the spin-down window).
+# Odd minute offsets avoid the on-the-hour scheduler rush, which is when
+# delays are worst. A twin workflow in the private backend repo runs twice
+# an hour as a backup so the two schedules cover each other's gaps.
+name: Keep backend warm
+on:
+  schedule:
+    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping health endpoint
+        run: curl -fsS -m 45 https://nolan-backend-qbuh.onrender.com/health
