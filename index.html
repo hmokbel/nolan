@@ -40,12 +40,16 @@
     <div class="container">
       <p class="section-label">Features</p>
       <h2>What Nolan Does</h2>
-      <p>Nolan is a personal finance app that brings together your financial accounts in one place and uses AI to surface the insights that matter most to you.</p>
+      <p>Nolan is a personal finance app that tracks your everyday spending through Apple Pay, with no bank login required, and uses AI to surface the insights that matter most to you. Connecting a bank is optional.</p>
 
       <div class="card-grid">
         <div class="card">
-          <h3>Account Connection</h3>
-          <p>Securely link checking, savings, and investment accounts through Plaid's encrypted connection flow.</p>
+          <h3>Apple Pay Tracking</h3>
+          <p>Nolan's primary way of seeing your spending. You set up one automation in Apple's Shortcuts app, and from then on every Apple Pay purchase is recorded, categorized, and explained automatically. No bank login, and no credentials of any kind.</p>
+        </div>
+        <div class="card">
+          <h3>Account Connection <span class="tag">Beta</span></h3>
+          <p>Optional. Securely link checking, savings, and investment accounts through Plaid's encrypted connection flow to add the things a tap cannot show, such as income, rent, and bills. Canadian bank coverage is still settling, so this path is in beta.</p>
         </div>
         <div class="card">
           <h3>Spending Analysis</h3>
@@ -57,7 +61,7 @@
         </div>
         <div class="card">
           <h3>Works Without a Bank</h3>
-          <p>No bank connection required. Tell Nolan your income, expenses, debts, and goals in plain conversation and get the same personalized help, budgets, and planning.</p>
+          <p>No bank connection required. Track spending through Apple Pay, and tell Nolan your income and fixed costs in plain conversation or a short form, for the same personalized help, budgets, and planning.</p>
         </div>
         <div class="card">
           <h3>Current, Grounded Research</h3>
@@ -191,7 +195,7 @@
         <div class="policy-section">
           <h3>1. Information We Collect</h3>
           <p>When you connect a bank or investment account, Nolan — via Plaid — retrieves account and transaction data (account names, balances, transaction descriptions, amounts, and dates) that you have authorized us to access. We do not collect your bank login credentials at any time.</p>
-          <p>Nolan does not require an account, login, or email address. During onboarding you may enter profile details (first name, age, province or state, income, expenses, savings, debt, and goals); this information is stored locally on your device and used to personalize the app. You can also use Nolan without connecting any bank at all: information you choose to tell the assistant in chat and ask it to remember (for example your income, a debt, or a goal) is saved on your device as "Your saved info", is visible and removable in Settings, and is used to personalize answers. Corrections you make to how a transaction is classified are stored the same way. Our backend keeps standard, short-lived technical logs for debugging and abuse prevention. We also count anonymous product events (such as "app opened" or "message sent"), keyed by a random install identifier, to understand overall usage; these counts never include your name, your finances, or anything you type.</p>
+          <p>If you set up Apple Pay tracking, you create an automation in Apple's Shortcuts app that sends Nolan a record of each Apple Pay purchase you make: the merchant name, the amount, the name of the card used, the category Apple assigns, and the time of the purchase. Nolan never receives your card number, and it has no access to Apple Wallet itself; it only receives what your own automation sends it. You can stop this at any time by deleting the automation in Shortcuts. Nolan does not require an account, login, or email address. During onboarding you may enter profile details (first name, age, province or state, income, expenses, savings, debt, and goals); this information is stored locally on your device and used to personalize the app. You can also use Nolan without connecting any bank at all: information you choose to tell the assistant in chat and ask it to remember (for example your income, a debt, or a goal) is saved on your device as "Your saved info", is visible and removable in Settings, and is used to personalize answers. Corrections you make to how a transaction is classified are stored the same way. Our backend keeps standard, short-lived technical logs for debugging and abuse prevention. We also count anonymous product events (such as "app opened" or "message sent"), keyed by a random install identifier, to understand overall usage; these counts never include your name, your finances, or anything you type.</p>
         </div>
 
         <div class="policy-section">
@@ -211,7 +215,7 @@
 
         <div class="policy-section">
           <h3>5. Where Your Data Lives</h3>
-          <p>Your profile, chat history, saved information, and corrections are stored locally on your device and are removed when you delete your data or the app. To personalize the in-chat insight shortcuts, Nolan also keeps a small on-device record of the topics you ask about; it never leaves your device and is erased with your data. If you enable iCloud backup in Settings (on by default), a small copy of your profile, your saved information, the assistant's memory notes, and your bank connection reference is stored in your own private iCloud, controlled by your Apple ID; Nolan's servers never receive it, and turning the toggle off or deleting your data erases it. Plaid access tokens are stored on Nolan's secured backend server and are revoked when you disconnect a bank or delete your data. Subscription payments are processed entirely by Apple; Nolan never sees or stores your payment card details.</p>
+          <p>Apple Pay purchase records are stored only on your device, in encrypted storage that is protected while your device is locked, and are erased when you delete your data or the app. Like your other transaction data, a summary of them forms part of the financial context sent to the AI provider when you chat, under the same consent described above. Your profile, chat history, saved information, and corrections are stored locally on your device and are removed when you delete your data or the app. To personalize the in-chat insight shortcuts, Nolan also keeps a small on-device record of the topics you ask about; it never leaves your device and is erased with your data. If you enable iCloud backup in Settings (on by default), a small copy of your profile, your saved information, the assistant's memory notes, and your bank connection reference is stored in your own private iCloud, controlled by your Apple ID; Nolan's servers never receive it, and turning the toggle off or deleting your data erases it. Plaid access tokens are stored on Nolan's secured backend server and are revoked when you disconnect a bank or delete your data. Subscription payments are processed entirely by Apple; Nolan never sees or stores your payment card details.</p>
           <p>Our service providers (Plaid, Anthropic, and our hosting provider) process data on servers located in the United States. By using Nolan you consent to your information being transferred to and processed in the United States, where privacy laws may differ from those in your country of residence.</p>
         </div>
 
