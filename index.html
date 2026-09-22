@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nolan — AI-Powered Financial Assistant</title>
-  <meta name="description" content="Nolan is an AI-powered financial assistant that helps users securely connect bank and investment accounts, analyze spending, and receive personalized financial insights." />
+  <title>Spensei — AI-Powered Financial Assistant</title>
+  <meta name="description" content="Spensei is an AI-powered financial assistant that helps users securely connect bank and investment accounts, analyze spending, and receive personalized financial insights." />
   <link rel="stylesheet" href="style.css" />
   <!-- No external scripts, no tracking, no ads, no cookies -->
 </head>
@@ -13,7 +13,7 @@
   <!-- ── Navigation ── -->
   <header>
     <nav>
-      <a class="nav-logo" href="#hero">Nolan</a>
+      <a class="nav-logo" href="#hero">Spensei</a>
       <ul class="nav-links">
         <li><a href="#what-nolan-does">Features</a></li>
         <li><a href="#plaid">Plaid</a></li>
@@ -29,23 +29,23 @@
   <!-- ── Hero ── -->
   <section id="hero">
     <div class="container">
-      <span class="hero-badge">Uses Plaid API · Your Data, Your Control</span>
-      <h1>Your AI-Powered Financial Assistant</h1>
-      <p>Nolan helps you securely connect your bank and investment accounts, understand your spending, and receive personalized financial insights — all with your privacy at the center.</p>
+      <span class="hero-badge">Apple Pay tracking · No bank login required</span>
+      <h1>Spending, taught back to you.</h1>
+      <p>Spensei records every Apple Pay purchase seconds after you pay, sorts it, and tells you where that leaves your week. Your purchases stay on your phone. Connecting a bank is optional. Spensei was previously called Nolan.</p>
     </div>
   </section>
 
-  <!-- ── What Nolan Does ── -->
+  <!-- ── What Spensei Does ── -->
   <section id="what-nolan-does">
     <div class="container">
       <p class="section-label">Features</p>
-      <h2>What Nolan Does</h2>
-      <p>Nolan is a personal finance app that tracks your everyday spending through Apple Pay, with no bank login required, and uses AI to surface the insights that matter most to you. Connecting a bank is optional.</p>
+      <h2>What Spensei Does</h2>
+      <p>Spensei is a personal finance app that tracks your everyday spending through Apple Pay, with no bank login required, and uses AI to surface the insights that matter most to you. Connecting a bank is optional.</p>
 
       <div class="card-grid">
         <div class="card">
           <h3>Apple Pay Tracking</h3>
-          <p>Nolan's primary way of seeing your spending. You add Nolan's ready-made shortcut and point one Wallet automation at it in Apple's Shortcuts app, with nothing to fill in, and from then on every Apple Pay purchase is recorded, categorized, and explained automatically. No bank login, and no credentials of any kind.</p>
+          <p>Spensei's primary way of seeing your spending. You add Spensei's ready-made shortcut and point one Wallet automation at it in Apple's Shortcuts app, with nothing to fill in, and from then on every Apple Pay purchase is recorded, categorized, and explained automatically. No bank login, and no credentials of any kind.</p>
         </div>
         <div class="card">
           <h3>Account Connection <span class="tag">Beta</span></h3>
@@ -61,40 +61,40 @@
         </div>
         <div class="card">
           <h3>Works Without a Bank</h3>
-          <p>No bank connection required. Track spending through Apple Pay, and tell Nolan your income and fixed costs in plain conversation or a short form, for the same personalized help, budgets, and planning.</p>
+          <p>No bank connection required. Track spending through Apple Pay, and tell Spensei your income and fixed costs in plain conversation or a short form, for the same personalized help, budgets, and planning.</p>
         </div>
         <div class="card">
           <h3>Current, Grounded Research</h3>
-          <p>Questions about funds, markets, or careers are answered with live web research, and Nolan says how current the information is instead of guessing from memory.</p>
+          <p>Questions about funds, markets, or careers are answered with live web research, and Spensei says how current the information is instead of guessing from memory.</p>
         </div>
         <div class="card">
           <h3>Privacy First</h3>
-          <p>Nolan never stores your bank login credentials. Your data is used solely to power the app's features.</p>
+          <p>Spensei never stores your bank login credentials. Your data is used solely to power the app's features.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── How Nolan Uses Plaid ── -->
+  <!-- ── How Spensei Uses Plaid ── -->
   <section id="plaid">
     <div class="container">
       <p class="section-label">Plaid API Usage</p>
-      <h2>How Nolan Uses Plaid</h2>
-      <p>Nolan uses the <a href="https://plaid.com" target="_blank" rel="noopener noreferrer">Plaid API</a> to facilitate secure bank account connections. Plaid is an independent third-party service; Nolan is not affiliated with, endorsed by, or officially partnered with Plaid Technologies, Inc.</p>
+      <h2>How Spensei Uses Plaid</h2>
+      <p>Spensei uses the <a href="https://plaid.com" target="_blank" rel="noopener noreferrer">Plaid API</a> to facilitate secure bank account connections. Plaid is an independent third-party service; Spensei is not affiliated with, endorsed by, or officially partnered with Plaid Technologies, Inc.</p>
 
       <ol class="step-list">
         <li>
           <span class="step-num">1</span>
           <div class="step-body">
             <h3>User Initiates Connection</h3>
-            <p>The user taps "Connect Account" within Nolan. No financial data is accessed until the user explicitly consents.</p>
+            <p>The user taps "Connect Account" within Spensei. No financial data is accessed until the user explicitly consents.</p>
           </div>
         </li>
         <li>
           <span class="step-num">2</span>
           <div class="step-body">
             <h3>Plaid Link Opens</h3>
-            <p>Nolan launches Plaid Link, a secure, Plaid-hosted UI. Nolan never sees, handles, or stores the user's bank username or password at any point.</p>
+            <p>Spensei launches Plaid Link, a secure, Plaid-hosted UI. Spensei never sees, handles, or stores the user's bank username or password at any point.</p>
           </div>
         </li>
         <li>
@@ -108,21 +108,21 @@
           <span class="step-num">4</span>
           <div class="step-body">
             <h3>Plaid Returns a Token</h3>
-            <p>Upon successful authentication, Plaid returns a short-lived <code>public_token</code> to Nolan's mobile client. This token has no value on its own and cannot be used to access account data directly.</p>
+            <p>Upon successful authentication, Plaid returns a short-lived <code>public_token</code> to Spensei's mobile client. This token has no value on its own and cannot be used to access account data directly.</p>
           </div>
         </li>
         <li>
           <span class="step-num">5</span>
           <div class="step-body">
             <h3>Secure Server-Side Exchange</h3>
-            <p>Nolan's mobile app sends the <code>public_token</code> to Nolan's backend API over HTTPS/TLS. The backend exchanges it for an <code>access_token</code> using the Plaid API. The <code>access_token</code> is stored securely server-side and is never exposed to the client or user.</p>
+            <p>Spensei's mobile app sends the <code>public_token</code> to Spensei's backend API over HTTPS/TLS. The backend exchanges it for an <code>access_token</code> using the Plaid API. The <code>access_token</code> is stored securely server-side and is never exposed to the client or user.</p>
           </div>
         </li>
         <li>
           <span class="step-num">6</span>
           <div class="step-body">
             <h3>Data Retrieval and Analysis</h3>
-            <p>Nolan's backend retrieves transaction, balance, and account data from Plaid on the user's behalf. This data is then processed to generate spending summaries and financial insights displayed within the app.</p>
+            <p>Spensei's backend retrieves transaction, balance, and account data from Plaid on the user's behalf. This data is then processed to generate spending summaries and financial insights displayed within the app.</p>
           </div>
         </li>
       </ol>
@@ -134,28 +134,28 @@
     <div class="container">
       <p class="section-label">Security</p>
       <h2>Data Security</h2>
-      <p>Nolan is built with security as a foundational requirement, not an afterthought. Below are the specific measures in place to protect user data.</p>
+      <p>Spensei is built with security as a foundational requirement, not an afterthought. Below are the specific measures in place to protect user data.</p>
 
       <ul class="security-list">
         <li>
           <span class="check">✓</span>
           <div>
             <h3>No Credential Storage</h3>
-            <p>Nolan never collects, stores, or transmits your bank username or password. Authentication is handled entirely by Plaid Link and your financial institution.</p>
+            <p>Spensei never collects, stores, or transmits your bank username or password. Authentication is handled entirely by Plaid Link and your financial institution.</p>
           </div>
         </li>
         <li>
           <span class="check">✓</span>
           <div>
             <h3>Encrypted Transport</h3>
-            <p>All data transmitted between the Nolan app, Nolan's backend, and the Plaid API is encrypted using HTTPS/TLS.</p>
+            <p>All data transmitted between the Spensei app, Spensei's backend, and the Plaid API is encrypted using HTTPS/TLS.</p>
           </div>
         </li>
         <li>
           <span class="check">✓</span>
           <div>
             <h3>Server-Side Secrets</h3>
-            <p>Plaid API credentials (client ID and secret) are stored exclusively on Nolan's backend server. They are never embedded in the mobile app or exposed to end users.</p>
+            <p>Plaid API credentials (client ID and secret) are stored exclusively on Spensei's backend server. They are never embedded in the mobile app or exposed to end users.</p>
           </div>
         </li>
         <li>
@@ -169,14 +169,14 @@
           <span class="check">✓</span>
           <div>
             <h3>Data Minimization</h3>
-            <p>Nolan requests only the Plaid API products and account data necessary to provide the app's core features. No unnecessary data is collected.</p>
+            <p>Spensei requests only the Plaid API products and account data necessary to provide the app's core features. No unnecessary data is collected.</p>
           </div>
         </li>
         <li>
           <span class="check">✓</span>
           <div>
             <h3>Secure Backend Architecture</h3>
-            <p>All Plaid API calls that require credentials are made server-side. The mobile app communicates with Nolan's backend, which acts as a secure intermediary.</p>
+            <p>All Plaid API calls that require credentials are made server-side. The mobile app communicates with Spensei's backend, which acts as a secure intermediary.</p>
           </div>
         </li>
       </ul>
@@ -188,45 +188,50 @@
     <div class="container">
       <p class="section-label">Legal</p>
       <h2>Privacy Policy</h2>
-      <p><strong>Effective date:</strong> July 27, 2026 &nbsp;·&nbsp; <strong>Owner:</strong> Husein Mokbel</p>
+      <p><strong>Effective date:</strong> September 22, 2026 &nbsp;·&nbsp; <strong>Owner:</strong> Husein Mokbel</p>
 
       <div class="policy-body">
 
         <div class="policy-section">
           <h3>1. Information We Collect</h3>
-          <p>When you connect a bank or investment account, Nolan — via Plaid — retrieves account and transaction data (account names, balances, transaction descriptions, amounts, and dates) that you have authorized us to access. We do not collect your bank login credentials at any time.</p>
-          <p>If you set up Apple Pay tracking, you add Nolan's ready-made shortcut and create an automation in Apple's Shortcuts app that runs it after each Apple Pay purchase. It sends Nolan a record of the purchase: the merchant name, the amount, the name of the card used, and the time of the purchase. Nolan never receives your card number, and it has no access to Apple Wallet itself; it only receives what your own automation sends it. You can stop this at any time by deleting the automation in Shortcuts. Nolan does not require an account, login, or email address. During onboarding you may enter profile details (first name, age, province or state, income, expenses, savings, debt, and goals); this information is stored locally on your device and used to personalize the app. You can also use Nolan without connecting any bank at all: information you choose to tell the assistant in chat and ask it to remember (for example your income, a debt, or a goal) is saved on your device as "Your saved info", is visible and removable in Settings, and is used to personalize answers. Corrections you make to how a transaction is classified are stored the same way. Our backend keeps standard, short-lived technical logs for debugging and abuse prevention. We also count anonymous product events (such as "app opened" or "message sent"), keyed by a random install identifier, to understand overall usage; these counts never include your name, your finances, or anything you type.</p>
+          <p>When you connect a bank or investment account, Spensei — via Plaid — retrieves account and transaction data (account names, balances, transaction descriptions, amounts, and dates) that you have authorized us to access. We do not collect your bank login credentials at any time.</p>
+          <p>If you set up Apple Pay tracking, you add Spensei's ready-made shortcut and create an automation in Apple's Shortcuts app that runs it after each Apple Pay purchase. It sends Spensei a record of the purchase: the merchant name, the amount, the name of the card used, and the time of the purchase. Spensei never receives your card number, and it has no access to Apple Wallet itself; it only receives what your own automation sends it. You can stop this at any time by deleting the automation in Shortcuts. Spensei does not require an account, login, or email address. During onboarding you may enter profile details (first name, age, province or state, income, expenses, savings, debt, and goals); this information is stored locally on your device and used to personalize the app. You can also use Spensei without connecting any bank at all: information you choose to tell the assistant in chat and ask it to remember (for example your income, a debt, or a goal) is saved on your device as "Your saved info", is visible and removable in Settings, and is used to personalize answers. Corrections you make to how a transaction is classified are stored the same way. Our backend keeps standard, short-lived technical logs for debugging and abuse prevention. We also count anonymous product events (such as "app opened" or "message sent"), keyed by a random install identifier, to understand overall usage; these counts never include your name, your finances, or anything you type.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>1b. Purchases Stay On Your Phone</h3>
+          <p>Apple Pay purchases captured through the Shortcuts automation are written to Spensei's encrypted storage on your iPhone and are <strong>never sent to our servers</strong>, to Plaid, or to anyone else. Categorizing them, checking them against limits you set, and pointing out a charge that looks duplicated or far above what a shop usually costs all happen on the device. Those observations are arithmetic on your own purchases; they are not fraud detection and not a statement that a charge is wrong, so always confirm with the merchant or your bank. With your permission, Spensei posts a notification seconds after a purchase showing the merchant and amount; it is composed on your device and appears on your lock screen unless you hide previews in iOS. You can turn receipts off in Spensei's settings or stop tracking entirely by deleting the automation in Shortcuts. If you add a widget or use the Apple Watch app, a small summary of figures (left this week, today, this month) is shared with them on your own devices and contains no merchant names.</p>
         </div>
 
         <div class="policy-section">
           <h3>2. How We Use Your Information</h3>
-          <p>Your financial data is used exclusively to provide Nolan's core functionality: categorizing transactions, calculating balances, and generating personalized financial insights within the app. We do not sell your data, share it with advertisers, or use it for any purpose unrelated to delivering the service.</p>
+          <p>Your financial data is used exclusively to provide Spensei's core functionality: categorizing transactions, calculating balances, and generating personalized financial insights within the app. We do not sell your data, share it with advertisers, or use it for any purpose unrelated to delivering the service.</p>
         </div>
 
         <div class="policy-section">
           <h3>3. Plaid's Role</h3>
-          <p>Nolan uses Plaid Technologies, Inc. to facilitate bank account connections. By connecting an account, you also agree to Plaid's <a href="https://plaid.com/legal/#consumers" target="_blank" rel="noopener noreferrer">End User Privacy Policy</a>. Plaid's privacy practices are independent of Nolan's.</p>
+          <p>Spensei uses Plaid Technologies, Inc. to facilitate bank account connections. By connecting an account, you also agree to Plaid's <a href="https://plaid.com/legal/#consumers" target="_blank" rel="noopener noreferrer">End User Privacy Policy</a>. Plaid's privacy practices are independent of Spensei's.</p>
         </div>
 
         <div class="policy-section">
           <h3>4. AI Processing (Anthropic) and Your Consent</h3>
-          <p>Nolan's assistant is powered by AI from <strong>Anthropic, PBC</strong>, a company based in the United States. <strong>Before any of your personal data is sent to Anthropic, Nolan asks for your explicit permission on a consent screen inside the app during setup.</strong> Nothing is shared with Anthropic until you agree, and you can withdraw this permission at any time in the app's Settings, which stops all sharing. When you chat with Nolan, your message, any image or file you attach (for example a photo of a receipt or a PDF bank statement), recent conversation history, and a summary of your financial data (such as account balances, spending totals, and transaction descriptions and categories) are transmitted over an encrypted connection to our backend and then to Anthropic to generate the response. Your bank login credentials are never part of this data. Under Anthropic's commercial terms, this data is not used to train AI models, and Anthropic provides protection for your data equivalent to what this policy describes. For questions that depend on current public information, such as interest rates, market news, investment fund facts, or typical salaries, the AI provider may perform a web search to ground the answer, and Nolan shows how current that information is; your account numbers and balances are not included in search queries. AI-generated responses are informational and may contain mistakes; always verify important figures against your bank or the official source. See Anthropic's privacy policy at <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">anthropic.com/legal/privacy</a>.</p>
+          <p>Spensei's assistant is powered by AI from <strong>Anthropic, PBC</strong>, a company based in the United States. <strong>Before any of your personal data is sent to Anthropic, Spensei asks for your explicit permission on a consent screen inside the app during setup.</strong> Nothing is shared with Anthropic until you agree, and you can withdraw this permission at any time in the app's Settings, which stops all sharing. When you chat with Spensei, your message, any image or file you attach (for example a photo of a receipt or a PDF bank statement), recent conversation history, and a summary of your financial data (such as account balances, spending totals, and transaction descriptions and categories) are transmitted over an encrypted connection to our backend and then to Anthropic to generate the response. Your bank login credentials are never part of this data. Under Anthropic's commercial terms, this data is not used to train AI models, and Anthropic provides protection for your data equivalent to what this policy describes. For questions that depend on current public information, such as interest rates, market news, investment fund facts, or typical salaries, the AI provider may perform a web search to ground the answer, and Spensei shows how current that information is; your account numbers and balances are not included in search queries. AI-generated responses are informational and may contain mistakes; always verify important figures against your bank or the official source. See Anthropic's privacy policy at <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">anthropic.com/legal/privacy</a>.</p>
         </div>
 
         <div class="policy-section">
           <h3>5. Where Your Data Lives</h3>
-          <p>Apple Pay purchase records are stored only on your device, in encrypted storage that is protected while your device is locked, and are erased when you delete your data or the app. Like your other transaction data, a summary of them forms part of the financial context sent to the AI provider when you chat, under the same consent described above. Your profile, chat history, saved information, and corrections are stored locally on your device and are removed when you delete your data or the app. To personalize the in-chat insight shortcuts, Nolan also keeps a small on-device record of the topics you ask about; it never leaves your device and is erased with your data. If you enable iCloud backup in Settings (on by default), a small copy of your profile, your saved information, the assistant's memory notes, and your bank connection reference is stored in your own private iCloud, controlled by your Apple ID; Nolan's servers never receive it, and turning the toggle off or deleting your data erases it. Plaid access tokens are stored on Nolan's secured backend server and are revoked when you disconnect a bank or delete your data. Subscription payments are processed entirely by Apple; Nolan never sees or stores your payment card details.</p>
-          <p>Our service providers (Plaid, Anthropic, and our hosting provider) process data on servers located in the United States. By using Nolan you consent to your information being transferred to and processed in the United States, where privacy laws may differ from those in your country of residence.</p>
+          <p>Apple Pay purchase records are stored only on your device, in encrypted storage that is protected while your device is locked, and are erased when you delete your data or the app. Like your other transaction data, a summary of them forms part of the financial context sent to the AI provider when you chat, under the same consent described above. Your profile, chat history, saved information, and corrections are stored locally on your device and are removed when you delete your data or the app. To personalize the in-chat insight shortcuts, Spensei also keeps a small on-device record of the topics you ask about; it never leaves your device and is erased with your data. If you enable iCloud backup in Settings (on by default), a small copy of your profile, your saved information, the assistant's memory notes, and your bank connection reference is stored in your own private iCloud, controlled by your Apple ID; Spensei's servers never receive it, and turning the toggle off or deleting your data erases it. Plaid access tokens are stored on Spensei's secured backend server and are revoked when you disconnect a bank or delete your data. Subscription payments are processed entirely by Apple; Spensei never sees or stores your payment card details.</p>
+          <p>Our service providers (Plaid, Anthropic, and our hosting provider) process data on servers located in the United States. By using Spensei you consent to your information being transferred to and processed in the United States, where privacy laws may differ from those in your country of residence.</p>
         </div>
 
         <div class="policy-section">
           <h3>6. Data Sharing</h3>
-          <p>We do not sell, rent, or trade your personal or financial information to third parties. Data may be shared only with the service providers necessary to operate Nolan: Plaid (bank connectivity), Anthropic, PBC (AI responses, only after you grant permission as described in section 4), Apple (subscriptions and payments), and our cloud hosting provider. Each receives only what it needs, only to the extent required to provide the service, and each is bound by its own terms and privacy policy that provide protection for your data equivalent to what this policy describes.</p>
+          <p>We do not sell, rent, or trade your personal or financial information to third parties. Data may be shared only with the service providers necessary to operate Spensei: Plaid (bank connectivity), Anthropic, PBC (AI responses, only after you grant permission as described in section 4), Apple (subscriptions and payments), and our cloud hosting provider. Each receives only what it needs, only to the extent required to provide the service, and each is bound by its own terms and privacy policy that provide protection for your data equivalent to what this policy describes.</p>
         </div>
 
         <div class="policy-section">
           <h3>7. Cookies and Tracking</h3>
-          <p>The Nolan website (this page) does not use cookies, tracking pixels, or any third-party analytics scripts. No personal data is collected through this website.</p>
+          <p>The Spensei website (this page) does not use cookies, tracking pixels, or any third-party analytics scripts. No personal data is collected through this website.</p>
         </div>
 
         <div class="policy-section">
@@ -236,17 +241,17 @@
 
         <div class="policy-section">
           <h3>9. Children's Privacy</h3>
-          <p>Nolan is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can delete it.</p>
+          <p>Spensei is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us so we can delete it.</p>
         </div>
 
         <div class="policy-section">
           <h3>10. Your Rights</h3>
-          <p>Depending on where you live (including under Canada's PIPEDA, the EU GDPR, and the California CCPA/CPRA), you may have the right to access, correct, export, or delete your personal information, and to withdraw consent. You can exercise the most important of these directly in the app: Settings &rarr; "Delete all my data" permanently revokes Nolan's bank access at Plaid and erases your profile, chat history, and stored data. For any other request, contact <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a> and we will respond within 30 days.</p>
+          <p>Depending on where you live (including under Canada's PIPEDA, the EU GDPR, and the California CCPA/CPRA), you may have the right to access, correct, export, or delete your personal information, and to withdraw consent. You can exercise the most important of these directly in the app: Settings &rarr; "Delete all my data" permanently revokes Spensei's bank access at Plaid and erases your profile, chat history, and stored data. For any other request, contact <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a> and we will respond within 30 days.</p>
         </div>
 
         <div class="policy-section">
           <h3>11. Changes to This Policy</h3>
-          <p>We may update this Privacy Policy from time to time. Material changes will be communicated via the app or by updating the effective date above. Continued use of Nolan after changes take effect constitutes acceptance of the updated policy.</p>
+          <p>We may update this Privacy Policy from time to time. Material changes will be communicated via the app or by updating the effective date above. Continued use of Spensei after changes take effect constitutes acceptance of the updated policy.</p>
         </div>
 
       </div>
@@ -269,7 +274,7 @@
 
         <div class="policy-section">
           <h3>2. Scope</h3>
-          <p>This policy applies to all consumer data processed by Nolan, including data retrieved via the Plaid API, as well as any associated metadata stored in backend systems.</p>
+          <p>This policy applies to all consumer data processed by Spensei, including data retrieved via the Plaid API, as well as any associated metadata stored in backend systems.</p>
         </div>
 
         <div class="policy-section">
@@ -277,7 +282,7 @@
           <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
             <li>Consumer financial data is accessed exclusively through the Plaid API following explicit user consent.</li>
             <li>Data is used solely for providing core application functionality.</li>
-            <li>Nolan adheres to the principle of data minimization, collecting only what is necessary.</li>
+            <li>Spensei adheres to the principle of data minimization, collecting only what is necessary.</li>
           </ul>
         </div>
 
@@ -296,8 +301,8 @@
             <li>Users may request deletion of their data at any time by contacting <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a>.</li>
             <li>Upon request, all associated consumer data is permanently removed from active systems within a reasonable timeframe.</li>
             <li>Account deletion triggers full removal of linked data.</li>
-            <li>You may also disconnect any linked account at any time from within the Nolan app. Upon disconnection, the associated Plaid access token is removed, preventing further data retrieval from that institution.</li>
-            <li>You may independently revoke Nolan's access to your financial institution data through Plaid's consumer portal at <a href="https://my.plaid.com" target="_blank" rel="noopener noreferrer">my.plaid.com</a>.</li>
+            <li>You may also disconnect any linked account at any time from within the Spensei app. Upon disconnection, the associated Plaid access token is removed, preventing further data retrieval from that institution.</li>
+            <li>You may independently revoke Spensei's access to your financial institution data through Plaid's consumer portal at <a href="https://my.plaid.com" target="_blank" rel="noopener noreferrer">my.plaid.com</a>.</li>
           </ul>
         </div>
 
@@ -352,16 +357,16 @@
     <div class="container">
       <p class="section-label">Legal</p>
       <h2>Terms of Service</h2>
-      <p>These terms are a binding agreement between you and Husein Mokbel, operating the Nolan app as a sole proprietorship ("Nolan," "we," "us"). By downloading, accessing, or using the app you agree to them, including the sections on no professional advice, disclaimers, limitation of liability, indemnification, and governing law. If you do not agree, do not use the app. Last updated July 27, 2026.</p>
+      <p>These terms are a binding agreement between you and Husein Mokbel, operating the Spensei app (formerly Nolan) as a sole proprietorship ("Spensei," "we," "us"). By downloading, accessing, or using the app you agree to them, including the sections on no professional advice, disclaimers, limitation of liability, indemnification, and governing law. If you do not agree, do not use the app. Last updated September 22, 2026.</p>
 
       <div class="policy-section">
-        <h3>1. What Nolan Is</h3>
+        <h3>1. What Spensei Is</h3>
         <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
-          <li>Nolan is a personal finance information tool that organizes accounts you connect, explains your spending, and offers general educational guidance.</li>
-          <li>Nolan is not a bank, broker, money services business, or licensed financial, tax, investment, or legal advisor, and nothing in the app is professional advice or a recommendation to buy, sell, or hold any product or security.</li>
-          <li>Nolan is software only. It does not hold, move, invest, or take custody of your money and cannot execute transactions; it has read-only access to the accounts you connect through Plaid. Nolan is not insured by the CDIC, FDIC, or any deposit or investor protection scheme.</li>
-          <li>Content is generated in part by artificial intelligence and is for information and education only. Using Nolan does not create any advisory, fiduciary, or professional relationship. All financial decisions are your own, and you assume full responsibility and risk for any action you take. Do your own research and consider consulting a qualified, licensed professional before acting.</li>
-          <li>You must be at least 18 years old, or the age of majority where you live, to use Nolan.</li>
+          <li>Spensei is a personal finance information tool that organizes accounts you connect, explains your spending, and offers general educational guidance.</li>
+          <li>Spensei is not a bank, broker, money services business, or licensed financial, tax, investment, or legal advisor, and nothing in the app is professional advice or a recommendation to buy, sell, or hold any product or security.</li>
+          <li>Spensei is software only. It does not hold, move, invest, or take custody of your money and cannot execute transactions; it has read-only access to the accounts you connect through Plaid. Spensei is not insured by the CDIC, FDIC, or any deposit or investor protection scheme.</li>
+          <li>Content is generated in part by artificial intelligence and is for information and education only. Using Spensei does not create any advisory, fiduciary, or professional relationship. All financial decisions are your own, and you assume full responsibility and risk for any action you take. Do your own research and consider consulting a qualified, licensed professional before acting.</li>
+          <li>You must be at least 18 years old, or the age of majority where you live, to use Spensei.</li>
         </ul>
       </div>
 
@@ -376,10 +381,10 @@
       <div class="policy-section">
         <h3>3. Subscriptions and Billing</h3>
         <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
-          <li>Nolan offers an optional auto-renewable subscription, Nolan Pro. After a limited number of free messages each week, continued use of the AI assistant requires a subscription.</li>
+          <li>Spensei offers an optional auto-renewable subscription, Spensei Pro. After a limited number of free messages each week, continued use of the AI assistant requires a subscription.</li>
           <li>Subscriptions are billed through your Apple App Store account and renew automatically unless cancelled at least 24 hours before the end of the current period.</li>
           <li>You can manage or cancel anytime in your App Store account settings. Any free trial converts to a paid subscription unless cancelled before it ends. Prices are shown in the app before purchase.</li>
-          <li>Fair use: all plans, including Nolan Pro and its free trial, are for normal personal use and are subject to reasonable weekly and daily limits that keep the service fast, sustainable, and secure. We may adjust these limits and may throttle or suspend automated, abusive, or excessive usage.</li>
+          <li>Fair use: all plans, including Spensei Pro and its free trial, are for normal personal use and are subject to reasonable weekly and daily limits that keep the service fast, sustainable, and secure. We may adjust these limits and may throttle or suspend automated, abusive, or excessive usage.</li>
           <li>Refunds are handled by Apple under Apple's standard policies; you can request one at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>.</li>
         </ul>
       </div>
@@ -387,7 +392,7 @@
       <div class="policy-section">
         <h3>4. Acceptable Use</h3>
         <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
-          <li>Use Nolan only for your own personal finances.</li>
+          <li>Use Spensei only for your own personal finances.</li>
           <li>Do not abuse, overload, reverse-engineer, scrape, or automate excessive requests against the service, and do not attempt to access other users' data. We may rate-limit or suspend accounts that abuse the service.</li>
         </ul>
       </div>
@@ -405,15 +410,15 @@
         <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
           <li>To the maximum extent permitted by law, the app is provided "as is" and "as available" without warranties of any kind, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, accuracy, and non-infringement. We do not warrant that the app will be uninterrupted, secure, or error-free, that bank data returned through Plaid will be accurate or complete, that information sourced from public web searches will be current or correct, or that any insight will lead to a particular financial outcome.</li>
           <li>Responses are generated by artificial intelligence and can be inaccurate, out of date, or incomplete. They are educational information, not professional advice, and should not be relied on as a statement of fact. You are responsible for evaluating any output before relying on it, and for verifying important numbers against your official bank records.</li>
-          <li>To the maximum extent permitted by law, Nolan and its owner will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for any loss of profits, savings, data, goodwill, or financial loss, arising from your use of or reliance on the app, even if advised of the possibility. Our total aggregate liability for all claims will not exceed the greater of (a) what you paid us in the twelve months before the claim, or (b) CAD $100. Where a jurisdiction does not allow these limits, our liability is limited to the smallest amount permitted by law.</li>
-          <li>You agree to indemnify and hold harmless Nolan and its owner from any claims, liabilities, damages, losses, and expenses, including reasonable legal fees, arising from your use of the app, your violation of these terms or any law, or your reliance on the app in making a financial decision.</li>
+          <li>To the maximum extent permitted by law, Spensei and its owner will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for any loss of profits, savings, data, goodwill, or financial loss, arising from your use of or reliance on the app, even if advised of the possibility. Our total aggregate liability for all claims will not exceed the greater of (a) what you paid us in the twelve months before the claim, or (b) CAD $100. Where a jurisdiction does not allow these limits, our liability is limited to the smallest amount permitted by law.</li>
+          <li>You agree to indemnify and hold harmless Spensei and its owner from any claims, liabilities, damages, losses, and expenses, including reasonable legal fees, arising from your use of the app, your violation of these terms or any law, or your reliance on the app in making a financial decision.</li>
         </ul>
       </div>
 
       <div class="policy-section">
         <h3>7. Termination and Changes</h3>
         <ul style="padding-left:20px; color:#5a5a5a; display:flex; flex-direction:column; gap:6px;">
-          <li>You may stop using Nolan at any time, disconnect your bank, and delete your data from within the app.</li>
+          <li>You may stop using Spensei at any time, disconnect your bank, and delete your data from within the app.</li>
           <li>We may suspend or terminate access for violations of these terms, and may update these terms from time to time, with the effective date noted above.</li>
         </ul>
       </div>
@@ -435,7 +440,7 @@
     <div class="container">
       <p class="section-label">Get in Touch</p>
       <h2>Contact</h2>
-      <p>Questions about your data, this privacy policy, or Nolan in general? Reach out directly.</p>
+      <p>Questions about your data, this privacy policy, or Spensei in general? Reach out directly.</p>
       <a class="contact-email" href="mailto:mokbel.huss@gmail.com">
         mokbel.huss@gmail.com
       </a>
@@ -447,7 +452,7 @@
 
   <!-- ── Footer ── -->
   <footer>
-    <p>&copy; 2026 Nolan · Husein Mokbel · <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a></p>
+    <p>&copy; 2026 Spensei · Husein Mokbel · <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a></p>
     <p style="margin-top:6px;">This site contains no tracking, no cookies, and no third-party scripts.</p>
   </footer>
 
