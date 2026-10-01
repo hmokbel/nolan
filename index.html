@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spensei | Spending coach for iPhone</title>
+  <meta name="description" content="Spensei logs your Apple Pay purchases on your iPhone and tells you what's safe to spend today. No bank login needed." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a class="nav-logo" href="#hero">Spensei</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#terms">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <span class="hero-badge">Apple Pay tracking · No bank login</span>
+      <h1>Spending, taught back to you.</h1>
+      <p>Spensei logs your Apple Pay purchases as you make them and tells you what's safe to spend today. Your purchases stay on your phone. Connecting a bank is optional.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <p class="section-label">Features</p>
+      <h2>What Spensei does</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>Apple Pay tracking</h3>
+          <p>Set it up once and every Apple Pay purchase is logged and sorted for you, seconds after you pay. No bank login, no passwords.</p>
+        </div>
+        <div class="card">
+          <h3>Safe to spend today</h3>
+          <p>One number for today, on your home screen, lock screen and Apple Watch. It updates as soon as you pay.</p>
+        </div>
+        <div class="card">
+          <h3>A daily check-in</h3>
+          <p>A short note each morning with today's number. Stay under it and your streak grows. Days under your number earn belts, and Spensei wears yours.</p>
+        </div>
+        <div class="card">
+          <h3>Subscriptions</h3>
+          <p>Spensei spots charges that look like subscriptions, checks with you first, and shows what each one costs over a year.</p>
+        </div>
+        <div class="card">
+          <h3>Ask about your money</h3>
+          <p>Ask in plain words and get answers from your own numbers. For rates, funds or salaries, it looks up current information and tells you how recent it is.</p>
+        </div>
+        <div class="card">
+          <h3>Bank connection <span class="tag">Beta</span></h3>
+          <p>Optional. Link accounts through Plaid to add income, rent and bills. Rather not? Tell Spensei your income and fixed costs instead.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plaid">
+    <div class="container">
+      <p class="section-label">Bank connection</p>
+      <h2>How Spensei uses Plaid</h2>
+      <p>Connecting a bank is optional and goes through <a href="https://plaid.com" target="_blank" rel="noopener noreferrer">Plaid</a>, an independent service. Spensei is not affiliated with or endorsed by Plaid Technologies, Inc.</p>
+
+      <ol class="step-list">
+        <li>
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <h3>You choose to connect</h3>
+            <p>Nothing is accessed until you tap Connect and agree.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <h3>You sign in at your bank</h3>
+            <p>Sign-in happens inside Plaid Link, Plaid's own secure screen, along with any verification codes. Spensei never sees your username or password.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <h3>The access token stays protected</h3>
+            <p>Plaid gives the app a one-time token. Our server exchanges it over an encrypted connection for an access token, which is encrypted with a key held only on our server. The app never has it in a usable form.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <div class="step-body">
+            <h3>Read-only data</h3>
+            <p>Our server fetches your balances and transactions from Plaid so the app can summarize them. Spensei cannot move money.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="security">
+    <div class="container">
+      <p class="section-label">Security</p>
+      <h2>Security</h2>
+
+      <ul class="security-list">
+        <li>
+          <span class="check">✓</span>
+          <div>
+            <h3>No bank passwords</h3>
+            <p>Spensei never collects or stores your bank login. Plaid and your bank handle it.</p>
+          </div>
+        </li>
+        <li>
+          <span class="check">✓</span>
+          <div>
+            <h3>Encrypted in transit and on your phone</h3>
+            <p>Everything between the app, our server and Plaid uses TLS. Purchases on your phone are kept in encrypted storage.</p>
+          </div>
+        </li>
+        <li>
+          <span class="check">✓</span>
+          <div>
+            <h3>Keys stay on our server</h3>
+            <p>Our Plaid and AI provider keys live only on our server, never in the app.</p>
+          </div>
+        </li>
+        <li>
+          <span class="check">✓</span>
+          <div>
+            <h3>Nothing shared without a yes</h3>
+            <p>You choose whether to connect a bank, and you give separate permission before anything is sent to our AI provider. You can take it back any time in Settings.</p>
+          </div>
+        </li>
+        <li>
+          <span class="check">✓</span>
+          <div>
+            <h3>Only what's needed</h3>
+            <p>We request only the data the app's features need.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <div class="container">
+      <p class="section-label">Legal</p>
+      <h2>Privacy Policy</h2>
+      <p><strong>Effective date:</strong> October 1, 2026</p>
+
+      <div class="policy-body">
+
+        <div class="policy-section">
+          <h3>1. What we collect</h3>
+          <p>Spensei doesn't need an account, a login or an email address. What it uses depends on what you turn on.</p>
+          <ul>
+            <li><strong>Apple Pay purchases.</strong> If you set up tracking, an automation you create in Apple's Shortcuts app sends Spensei the merchant, amount, card name and time of each Apple Pay purchase. Never your card number. Spensei has no access to Apple Wallet itself, and deleting the automation stops it.</li>
+            <li><strong>Bank data.</strong> If you connect a bank, Spensei receives account names, balances and transactions through Plaid. Never your login.</li>
+            <li><strong>What you tell Spensei.</strong> Profile details from setup (first name, age, province or state, income, expenses, savings, debt and goals), things you ask the assistant to remember, and any category corrections. These stay on your device and can be viewed and removed in Settings.</li>
+            <li><strong>Usage counts.</strong> Anonymous events such as "app opened", tied to a random install ID. Never your name, your money or anything you type. Our server also keeps short-lived technical logs for debugging and abuse prevention.</li>
+            <li><strong>Ad measurement.</strong> The app tells Meta (Facebook) when it's opened, when setup is finished, and when a trial or subscription starts, so we can see whether our ads work. No financial data, name, email or advertising ID is sent. Meta also receives basic technical details such as device type and IP address.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>2. Your purchases stay on your phone</h3>
+          <p>Apple Pay purchases are kept in encrypted storage on your iPhone. They aren't uploaded to or stored on our servers, and they're never sent to Plaid. Sorting, your daily number, streak and belts, subscriptions, limits, and flags for charges that look duplicated or unusually high are all worked out on the phone. Those flags are simple arithmetic, not fraud detection, so check with the merchant or your bank.</p>
+          <p>The only time purchase details leave your phone is when you chat with Spensei: a summary is sent so it can answer you, as described in section 4.</p>
+          <p>With your permission, Spensei sends a receipt after each purchase and a short note each morning. Both are written on your phone and can show on your lock screen unless you hide previews in iOS. You can turn either off in Settings. Widgets and the Apple Watch app only get totals, never merchant names.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>3. How we use it</h3>
+          <p>Only to run Spensei. We don't sell your data, and we never share your financial information with advertisers.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>4. AI and your consent</h3>
+          <p>Spensei's assistant uses AI from <strong>Anthropic, PBC</strong>, a US company. <strong>Before any of your data goes to Anthropic, the app asks for your permission on a dedicated screen.</strong> Nothing is shared until you agree, and you can withdraw permission any time in Settings.</p>
+          <p>When you chat, your message, any image or file you attach, recent conversation and a summary of your finances (balances, spending totals, transaction descriptions and categories) are sent encrypted through our server to Anthropic to write the reply. Your bank login is never included. Under Anthropic's commercial terms, this data isn't used to train their models.</p>
+          <p>For questions about current public information, such as interest rates, fund details or typical salaries, the AI may search the web, and Spensei shows how current the answer is. Your account numbers and balances are never part of a search. AI answers can be wrong, so check important figures with your bank or the official source. See <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">Anthropic's privacy policy</a>.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>5. Where your data lives</h3>
+          <ul>
+            <li><strong>On your device:</strong> purchases, profile, chats, saved info, corrections and the topics you ask about (used to suggest questions). All of it is erased when you delete your data or the app.</li>
+            <li><strong>In your iCloud:</strong> if iCloud backup is on (it is by default), a small copy of your profile, saved info, the assistant's notes and your bank connection reference is kept in your private iCloud. We never receive it, and turning backup off or deleting your data erases it.</li>
+            <li><strong>On our server:</strong> nothing about your purchases. Plaid access tokens are encrypted with a key only our server holds, and are revoked when you disconnect a bank or delete your data.</li>
+            <li><strong>Payments</strong> are handled by Apple. We never see your card details.</li>
+          </ul>
+          <p>Plaid, Anthropic, Meta and our hosting provider process data in the United States. By using Spensei, you agree to your information being processed there, where privacy laws may differ from yours.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>6. Who we share with</h3>
+          <p>We don't sell, rent or trade your information. We share only what each service needs: Plaid (bank connections), Anthropic (AI replies, after you agree), Apple (subscriptions), Meta (ad measurement events only) and our hosting provider. Each is bound by its own terms and protects your data to a standard comparable to this policy.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>7. This website</h3>
+          <p>No cookies, tracking or analytics. This site doesn't collect anything about you.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>8. Security</h3>
+          <p>We use TLS encryption in transit and access-controlled storage, and keep service keys on our server only.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>9. Children</h3>
+          <p>Spensei isn't meant for children under 13, and we don't knowingly collect their information. If you think a child has given us information, contact us and we'll delete it.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>10. Your rights</h3>
+          <p>Depending on where you live (including under Canada's PIPEDA, the EU GDPR and California's CCPA/CPRA), you can access, correct, export or delete your information and withdraw consent. The quickest way is Settings &rarr; "Delete all my data", which revokes bank access at Plaid and erases your data. For anything else, email <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a> and we'll reply within 30 days.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>11. Changes</h3>
+          <p>We may update this policy. We'll note material changes in the app or by changing the date above. Using Spensei after a change means you accept it.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="retention">
+    <div class="container">
+      <p class="section-label">Legal</p>
+      <h2>Data Retention and Disposal</h2>
+      <p><strong>Effective:</strong> March 15, 2026 &nbsp;·&nbsp; <strong>Updated:</strong> October 1, 2026</p>
+
+      <div class="policy-body">
+
+        <div class="policy-section">
+          <h3>1. Purpose and scope</h3>
+          <p>This policy covers how Spensei keeps and deletes consumer data, including data from the Plaid API and related records on our systems. We keep data only as long as it's needed and delete it securely after that.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>2. Collection</h3>
+          <p>Financial data is accessed through Plaid only after you agree, used only to run the app, and limited to what its features need.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>3. Retention</h3>
+          <p>Data is kept only as long as its purpose requires. Retention is reviewed regularly, unused data is scheduled for deletion, and temporary and cached data are cleared automatically.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>4. Deleting your data</h3>
+          <ul>
+            <li>In the app, Settings &rarr; "Delete all my data" erases your data and revokes bank access.</li>
+            <li>You can also email <a href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a>, and we'll remove your data from active systems within a reasonable time.</li>
+            <li>Disconnecting a bank removes its Plaid access token, so no more data is fetched from it.</li>
+            <li>You can revoke access at any time through Plaid's portal at <a href="https://my.plaid.com" target="_blank" rel="noopener noreferrer">my.plaid.com</a>.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>5. Disposal</h3>
+          <p>Deleted data is removed from production systems, and from backups and logs where applicable, using secure methods that prevent recovery.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>6. Security controls</h3>
+          <p>TLS 1.2 or higher in transit, least-privilege access to stored data, and administrative access limited to authorized people.</p>
+        </div>
+
+        <div class="policy-section">
+          <h3>7. Compliance and review</h3>
+          <p>This policy follows Canadian privacy law and general data protection principles. It's reviewed regularly and updated when our systems or practices change.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="terms">
+    <div class="container">
+      <p class="section-label">Legal</p>
+      <h2>Terms of Service</h2>
+      <p>These terms are a binding agreement between you and Husein Mokbel, operating the Spensei app (formerly Nolan) as a sole proprietorship ("Spensei," "we," "us"). By downloading, accessing, or using the app you agree to them, including the sections on no professional advice, disclaimers, limitation of liability, indemnification, and governing law. If you do not agree, do not use the app. Last updated October 1, 2026.</p>
+
+      <div class="policy-body">
+
+        <div class="policy-section">
+          <h3>1. What Spensei is</h3>
+          <ul>
+            <li>Spensei is a personal finance information tool that organizes your spending and the accounts you connect, explains them, and offers general educational guidance.</li>
+            <li>Spensei is not a bank, broker, money services business, or licensed financial, tax, investment, or legal advisor, and nothing in the app is professional advice or a recommendation to buy, sell, or hold any product or security.</li>
+            <li>Spensei is software only. It does not hold, move, invest, or take custody of your money and cannot execute transactions; it has read-only access to the accounts you connect through Plaid. Spensei is not insured by the CDIC, FDIC, or any deposit or investor protection scheme.</li>
+            <li>Content is generated in part by artificial intelligence and is for information and education only. Using Spensei does not create any advisory, fiduciary, or professional relationship. All financial decisions are your own, and you assume full responsibility and risk for any action you take. Do your own research and consider consulting a qualified, licensed professional before acting.</li>
+            <li>You must be at least 18 years old, or the age of majority where you live, to use Spensei.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>2. Accuracy</h3>
+          <ul>
+            <li>Insights depend on the data you provide, the purchases your automation sends, and the data your bank returns through Plaid. Banks occasionally return incomplete or delayed data.</li>
+            <li>We work to keep classifications accurate but do not guarantee every figure is error-free. Verify important numbers against your bank statements.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>3. Subscriptions and billing</h3>
+          <ul>
+            <li>Spensei offers an optional auto-renewable subscription, Spensei Pro. After a limited number of free messages each week, continued use of the AI assistant requires a subscription.</li>
+            <li>Subscriptions are billed through your Apple App Store account and renew automatically unless cancelled at least 24 hours before the end of the current period.</li>
+            <li>You can manage or cancel anytime in your App Store account settings. Any free trial converts to a paid subscription unless cancelled before it ends. Prices are shown in the app before purchase.</li>
+            <li>Fair use: all plans, including Spensei Pro and its free trial, are for normal personal use and are subject to reasonable weekly and daily limits that keep the service fast, sustainable, and secure. We may adjust these limits and may throttle or suspend automated, abusive, or excessive usage.</li>
+            <li>Refunds are handled by Apple under Apple's standard policies; you can request one at <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>4. Acceptable use</h3>
+          <ul>
+            <li>Use Spensei only for your own personal finances.</li>
+            <li>Do not abuse, overload, reverse-engineer, scrape, or automate excessive requests against the service, and do not attempt to access other users' data. We may rate-limit or suspend accounts that abuse the service.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>5. Third-party services</h3>
+          <ul>
+            <li>Bank connectivity is provided by Plaid and is subject to Plaid's <a href="https://plaid.com/legal/#consumers" target="_blank" rel="noopener noreferrer">End User Privacy Policy</a> and terms.</li>
+            <li>AI responses are generated using Anthropic. Payments are handled by Apple. Your use of those features is also subject to their terms.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>6. Disclaimers, limitation of liability, and indemnification</h3>
+          <ul>
+            <li>To the maximum extent permitted by law, the app is provided "as is" and "as available" without warranties of any kind, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, accuracy, and non-infringement. We do not warrant that the app will be uninterrupted, secure, or error-free, that bank data returned through Plaid will be accurate or complete, that information sourced from public web searches will be current or correct, or that any insight will lead to a particular financial outcome.</li>
+            <li>Responses are generated by artificial intelligence and can be inaccurate, out of date, or incomplete. They are educational information, not professional advice, and should not be relied on as a statement of fact. You are responsible for evaluating any output before relying on it, and for verifying important numbers against your official bank records.</li>
+            <li>To the maximum extent permitted by law, Spensei and its owner will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for any loss of profits, savings, data, goodwill, or financial loss, arising from your use of or reliance on the app, even if advised of the possibility. Our total aggregate liability for all claims will not exceed the greater of (a) what you paid us in the twelve months before the claim, or (b) CAD $100. Where a jurisdiction does not allow these limits, our liability is limited to the smallest amount permitted by law.</li>
+            <li>You agree to indemnify and hold harmless Spensei and its owner from any claims, liabilities, damages, losses, and expenses, including reasonable legal fees, arising from your use of the app, your violation of these terms or any law, or your reliance on the app in making a financial decision.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>7. Termination and changes</h3>
+          <ul>
+            <li>You may stop using Spensei at any time, disconnect your bank, and delete your data from within the app.</li>
+            <li>We may suspend or terminate access for violations of these terms, and may update these terms from time to time, with the date noted above.</li>
+          </ul>
+        </div>
+
+        <div class="policy-section">
+          <h3>8. Governing law and disputes</h3>
+          <ul>
+            <li>These terms are governed by the laws of the Province of Ontario and the federal laws of Canada applicable there, without regard to conflict-of-law principles.</li>
+            <li>Before starting any formal claim, you agree to contact us at mokbel.huss@gmail.com and try in good faith to resolve the matter informally for at least thirty days. Any dispute that cannot be resolved this way is subject to the exclusive jurisdiction of the courts located in Ontario, Canada, and you consent to that venue.</li>
+            <li>The sections that by their nature should survive termination, including disclaimers, limitation of liability, indemnification, and governing law, continue to apply. If any provision is unenforceable, the rest remain in effect.</li>
+            <li>Nothing in these terms limits any consumer rights that cannot be waived under the laws of your place of residence.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Contact</p>
+      <h2>Get in touch</h2>
+      <p>Questions about your data, these policies, or Spensei in general?</p>
+      <a class="contact-email" href="mailto:mokbel.huss@gmail.com">mokbel.huss@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Spensei. No cookies, no tracking, no third-party scripts.</p>
+  </footer>
+
+</body>
+</html>
